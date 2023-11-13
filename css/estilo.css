@@ -1,0 +1,98 @@
+.menu img{
+    width: 180px;
+}
+.menu h2{
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-top: 70px;
+    color: #3F2412;
+    font-family: 'STIX Two Text', serif;
+    font-weight: 600;
+}
+.menu a{
+    background: #D1721C;
+    font-size: 12px;
+    color: white;
+    border-radius: 10px;
+    padding: 13px 38px;
+    margin-left: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    position: relative;
+    top: -4px;
+}
+.menu a:hover{
+    text-decoration: none;
+    background: #eb8629;
+}
+.footer{
+    background: #3F2412;
+    color: #FABD65;
+    padding: 20px 0px;
+    margin-top: 80px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+.footer span{
+    color: white !important;
+    margin-left: 5px;
+    font-size: 15px;
+    font-family: 'STIX Two Text', serif;
+    position: relative;
+    top: -2px;
+}
+.footer a{
+    color: white;
+}
+.alturaImg{
+    margin-top: 25px;
+}
+
+@media screen and (max-width: 960px) {
+    .alturaImg{
+        margin-top: 0px;
+    }  
+    .menu{
+        text-align: center;
+    }
+    .menu h2 {
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 26px !important;
+    }
+    .imgs{
+        margin-bottom: 120px !important;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .menu a {
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: 225px;
+        margin: 0px 80px;
+    }
+    .menu h2 {
+        margin-bottom: 60px !important;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .footer {
+        padding: 5px 0px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .menu a {
+        margin: 0px 20px;
+    }
+}
+
+@media screen and (max-width: 387px) {
+    .menu a {
+        top: 250px;
+    }
+}
